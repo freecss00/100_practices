@@ -9,4 +9,5 @@ if __name__ == '__main__':
     print('Union        :', X | Y)
     print('Difference   :', X - Y)
     print('Intersection :', X & Y)
-    print('Is "se" belong to both X and Y?: ', 'se' in (X & Y))
+    print('Is "se" belong to X?: ', 'se' in X)
+    print('Is "se" belong to Y?: ', 'se' in Y)
